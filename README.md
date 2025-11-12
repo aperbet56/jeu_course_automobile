@@ -1,5 +1,7 @@
 ## JEU : COURSE AUTOMOBILE 🚗
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création du jeu : course automobile en HTML5, CSS3 et JavaScript.
