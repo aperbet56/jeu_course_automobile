@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu : course automobile</title>
+    <!-- Importation de la favicon -->
+    <link rel="shortcut icon" href="img/car.png" type="image/x-icon" />     
+    <!-- Importation des styles -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Début de la div car__game__container -->
+    <div class="car__game__container">
+      <div class="score"></div>
+      <div class="start__screen">
+        <h1 class="title">Règle du jeu :</h1>
+        <p>
+          Cliquez ici pour commencer la course ! <br />
+          Utilisez les flèches pour déplacer la voiture ! <br />
+          Si vous percutez une autre voiture, vous perdrez !
+        </p>
+        <p class="choose__level">
+          Choisir le niveau de difficulté :
+          <div class="level">
+            <button id="easy">Amateur</button>
+            <button id="moderate">Intermédiaire</button>
+            <button id="difficult">Expert</button>
+          </div>
+        </p>
+      </div>
+      
+      <div class="game__area"></div>
+    </div>
+    <!-- Fin de la div car__game__container-->
+
+    <!-- Importation du fichier script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
