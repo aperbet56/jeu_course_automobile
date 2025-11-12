@@ -121,22 +121,20 @@ body,
 
 .car,
 .enemy__car {
+    width: 60px;
     height: 100px;
     position: absolute;
     bottom: 120px;
-    background-image: url(img/car.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .car {
-    width: 70px;
-    background-image: url(img/car.png);
+    background-image: url(img/my_car.png);
 }
 
 .enemy__car {
-    background-image: url(img/car1.png);
-    width: 60px;
+    background-image: url(img/car_enemy.png);
 }
 
 /**** div road__lines ****/
