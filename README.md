@@ -6,7 +6,7 @@
 
 Création du jeu : course automobile en HTML5, CSS3 et JavaScript.
 
-Spécifications tecniques :
+Spécifications techniques :
 
 - Utilisation des flèches directionnelles pour déplacer la voiture
 - Choix de la difficulté
