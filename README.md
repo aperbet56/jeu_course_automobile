@@ -1,6 +1,6 @@
 ## JEU : COURSE AUTOMOBILE 🚗
 
-![Design preview for the project](./img/preview.png)
+![Design preview for the project](./img/banner.png)
 
 ## Le challenge
 
