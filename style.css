@@ -1,0 +1,151 @@
+/**** Importation de la police Inter Tight ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**** reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    outline: none;
+}
+
+/**** body et div car__game__container ****/
+
+body,
+.car__game__container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+/**** div score ****/
+
+.score {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: #10ac84;
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 70px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 5px 5px #777777;
+}
+
+/**** div start__screen ****/
+
+.start__screen {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ee5253;
+    color: #ffffff;
+    z-index: 1;
+    border: 1px solid #ff6b6b;
+    padding: 20px 15px;
+    margin: auto;
+    width: 50%;
+    letter-spacing: 5;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 3;
+    line-height: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #777777;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding-inline: 15px;
+    text-transform: uppercase;
+}
+
+/**** p choose level ****/
+
+.choose__level {
+    margin-block: 20px;
+}
+
+/**** div level *****/
+
+.level {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.level button {
+    width: 120px;
+    padding: 7px;
+    border: 1px solid #ff4500;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(119, 119, 119, 0.651);
+}
+
+/**** div game__area ****/
+
+.game__area {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    background-color: #2d3436;
+    border-right: 7px dashed #c8d6e5;
+    border-left: 7px dashed #c8d6e5;
+}
+
+/**** div car et enemy__car ****/
+
+.car,
+.enemy__car {
+    height: 100px;
+    position: absolute;
+    bottom: 120px;
+    background-image: url(img/car.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.car {
+    width: 70px;
+    background-image: url(img/car.png);
+}
+
+.enemy__car {
+    background-image: url(img/car1.png);
+    width: 60px;
+}
+
+/**** div road__lines ****/
+
+.road__lines {
+    width: 7px;
+    height: 100px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 195px;
+    /* show line in center = (game__area.width / 2) - (road__lines.width / 2) */
+}
