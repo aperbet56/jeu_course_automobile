@@ -159,6 +159,11 @@ body,
 /**** Responsive design version mobile ****/
 
 @media screen and (max-width: 572px) {
+    .start__screen {
+        width: 100%;
+        font-size: 18px;
+    }
+
     .game__area {
         width: 100%;
     }
