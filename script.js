@@ -111,7 +111,7 @@ const moveEnemy = (car) => {
 
     // condition if
     if (item.y >= 750) {
-      item.y = -300;
+      item.y = -350;
       item.style.left = Math.floor(Math.random() * 350) + "px";
     }
     item.y += player.speed;
@@ -202,7 +202,7 @@ const start = () => {
     // Création d'élément div ayant la classe enemy__car
     const enemyCar = document.createElement("div");
     enemyCar.setAttribute("class", "enemy__car");
-    enemyCar.y = (i + 1) * 300 * -1;
+    enemyCar.y = (i + 1) * 350 * -1;
     enemyCar.style.top = enemyCar.y + "px";
     enemyCar.style.left = Math.floor(Math.random() * 350) + "px";
     // Ajout de l'élément div créé dans le DOM
