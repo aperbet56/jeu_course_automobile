@@ -24,6 +24,6 @@ Lien vers le projet : https://aperbet56.github.io/jeu_course_automobile/
 - Responsive design
 - Desktop first
 - Utilisation d'un normaliseur : le fichier normalize.css
-- Importation de la police "Inter Tight"
+- Importation de la police : "Inter Tight"
 - JavaScript
 - Code JavaScript commenté
