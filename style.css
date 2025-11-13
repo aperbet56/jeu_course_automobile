@@ -147,3 +147,11 @@ body,
     margin-left: 196px;
     /* show line in center = (game__area.width / 2) - (road__lines.width / 2) */
 }
+
+/**** Responsive design version tablette ****/
+
+@media screen and (max-width: 991px) {
+    .score {
+        display: none;
+    }
+}
