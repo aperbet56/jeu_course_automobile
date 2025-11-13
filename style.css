@@ -155,3 +155,15 @@ body,
         display: none;
     }
 }
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 572px) {
+    .game__area {
+        width: 100%;
+    }
+
+    .road__lines {
+        margin-left: calc(50% - 4px);
+    }
+}
