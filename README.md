@@ -21,6 +21,7 @@ Lien vers le projet : https://aperbet56.github.io/jeu_course_automobile/
 - CSS3
 - Commentaires HTML
 - Commentaires CSS
+- Responsive design
 - Desktop first
 - Utilisation d'un normaliseur : le fichier normalize.css
 - Importation de la police "Inter Tight"
